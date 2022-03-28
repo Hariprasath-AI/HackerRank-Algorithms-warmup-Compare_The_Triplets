@@ -10,7 +10,6 @@ If a[i] > b[i], then Alice is awarded 1 point.\
 If a[i] < b[i], then Bob is awarded 1 point.\
 If a[i] = b[i], then neither person receives a point.\
 Comparison points is the total points a person earned.\
-
 Given a and b, determine their respective comparison points.
 
 # Example
