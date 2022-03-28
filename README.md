@@ -40,3 +40,34 @@ The second line contains 3 space-separated integers, b[0], b[1], and b[2], the r
 
 1 ≤ a[i] ≤ 100\
 1 ≤ b[i] ≤ 100
+
+# Sample Input 0
+5 6 7\
+3 6 10
+
+# Sample Output 0
+1 1
+
+# Explanation 0
+In this example:\
+a = [a[0], a[1], a[2]] = [5, 6, 7]\
+b = [b[0], b[1], b[2]] = [3, 6, 10]\
+Now, let's compare each individual score:\
+a[0] > b[0], so Alice receives 1 point.\
+a[0] == b[0], so nobody receives a point.\
+b[0] > a[0], so Bob receives 1 point.\
+Alice's comparison score is 1, and Bob's comparison score is 1. Thus, we return the array [1,1].
+
+# Sample Input 1
+17 28 30\
+99 16 8
+
+#Sample Output 1
+2 1
+
+# Explanation 1
+Comparing the 0th elements, 17 < 99 so Bob receives a point.\
+Comparing the 1st elements, 28 > 16 so Alice receives a point.\
+Comparing the 3rd elements, 30 > 8 So Alice receives a point.\
+The return array is [2,1].
+
