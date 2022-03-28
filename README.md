@@ -62,7 +62,7 @@ Alice's comparison score is 1, and Bob's comparison score is 1. Thus, we return 
 17 28 30\
 99 16 8
 
-#Sample Output 1
+# Sample Output 1
 2 1
 
 # Explanation 1
