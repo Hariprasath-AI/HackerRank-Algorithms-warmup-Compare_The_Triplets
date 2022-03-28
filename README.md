@@ -6,17 +6,17 @@ The rating for Alice's challenge is the triplet a = (a[0], a[1], a[2]), and the 
 
 The task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
 
-If a[i] > b[i], then Alice is awarded 1 point.
-If a[i] < b[i], then Bob is awarded 1 point.
-If a[i] = b[i], then neither person receives a point.
-Comparison points is the total points a person earned.
+If a[i] > b[i], then Alice is awarded 1 point.\
+If a[i] < b[i], then Bob is awarded 1 point.\
+If a[i] = b[i], then neither person receives a point.\
+Comparison points is the total points a person earned.\
 
 Given a and b, determine their respective comparison points.
 
 # Example
 
-a = [1, 2, 3]
-b = [3, 2, 1]
+a = [1, 2, 3]\
+b = [3, 2, 1]\
 For elements *0*, Bob is awarded a point because a[0] .
 For the equal elements a[1] and b[1], no points are earned.
 Finally, for elements 2, a[2] > b[2] so Alice receives a point.
@@ -39,5 +39,5 @@ The second line contains 3 space-separated integers, b[0], b[1], and b[2], the r
 
 # Constraints
 
-1 ≤ a[i] ≤ 100
+1 ≤ a[i] ≤ 100\
 1 ≤ b[i] ≤ 100
